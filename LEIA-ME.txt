@@ -1,0 +1,34 @@
+HOTEL PET - ENTREGA DA SEMANA 1
+================================
+
+Data: 14/08/2026
+Disciplina: Programação Web I
+Professor: Lucas Santos de Oliveira
+Aluno: Thiago Ferreira Prates Neves
+Domínio: https://hotelpet.shop
+
+CONTEÚDO
+- 16 páginas HTML
+- 6 arquivos SVG
+- 0 arquivos CSS
+
+A entrega foi preparada para a etapa "Semana 1 - 14/08 HTML"
+do enunciado. O CSS não faz parte deste pacote; a etapa de CSS
+está prevista para 21/08/2026.
+
+INTEGRIDADE
+O arquivo manifesto_sha256.txt registra o SHA-256 de cada arquivo
+HTML e SVG entregue.
+
+GITHUB
+O enunciado informa que as entregas serão avaliadas por meio do
+GitHub. Como este ambiente não possui o repositório GitHub do aluno,
+nenhum commit hash foi inventado. Após publicar os arquivos no
+repositório, o commit real poderá ser identificado pelo próprio GitHub.
+
+ESTRUTURA
+hotelpetshop/
+├── *.html
+├── imagens/
+│   └── *.svg
+└── manifesto_sha256.txt

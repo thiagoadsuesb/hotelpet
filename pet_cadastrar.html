@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<!--
+============================================================
+UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA - UESB
+CURSO: Análise e Desenvolvimento de Sistemas - EAD
+DISCIPLINA: Programação Web I
+PROFESSOR: Lucas Santos de Oliveira
+ALUNO: Thiago Ferreira Prates Neves
+ATIVIDADE: Trabalho Final - Hotel Pet
+ETAPA: Semana 1 - HTML
+DATA DE AVALIAÇÃO/ENTREGA: 14/08/2026
+============================================================
+
+PROJETO:
+Hotel Pet - Sistema de gerenciamento de estadia de Pets.
+
+DOMÍNIO:
+https://hotelpet.shop
+
+OBJETIVO DESTA ENTREGA:
+Entregar a estrutura HTML do Projeto Final Hotel Pet, conforme
+o enunciado da disciplina. Nesta etapa não há CSS.
+
+ESCOPO:
+- HTML = estrutura e conteúdo
+- CSS = etapa seguinte, prevista para 21/08/2026
+- Backend = não desenvolvido; elementos estáticos
+- Visão implementada = Gerente, conforme o enunciado
+
+ARQUIVO/PÁGINA ATUAL:
+hotelpetshop/pet_cadastrar.html
+Título da página: Novo Pet - Hotel Pet
+
+QUANTIDADE DE ARQUIVOS DA ENTREGA:
+22 arquivos no total
+16 páginas HTML
+6 arquivos SVG
+0 arquivos CSS
+
+INVENTÁRIO COMPLETO E INTEGRIDADE:
+O inventário completo dos arquivos, diretórios e respectivos hashes
+SHA-256 está registrado em:
+manifesto_sha256.txt
+
+GITHUB:
+O enunciado informa que as entregas frequentes serão avaliadas por
+meio do GitHub. Este arquivo não contém um commit hash inventado.
+O commit deve ser registrado no repositório do projeto quando a
+entrega for publicada.
+
+ATUALIZAÇÃO DA ATIVIDADE:
+Projeto Final - Hotel Pet
+Entrega da estrutura HTML para avaliação em 14/08/2026.
+
+============================================================
+-->
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novo Pet - Hotel Pet</title>
+</head>
+<body>
+  <div class="container">
+    <aside class="menu-lateral">
+      <div class="logo">
+        <img src="imagens/logo.svg" alt="Logo do Hotel Pet">
+        <span>Hotel Pet</span>
+      </div>
+      <nav class="menu">
+        <a href="pets.html" class="item ativo">🐾 Pet</a>
+        <a href="usuarios.html" class="item">👤 Usuários</a>
+        <a href="configuracoes.html" class="item">⚙️ Configurações</a>
+        <a href="reservas.html" class="item">📖 Reservas</a>
+      </nav>
+    </aside>
+
+    <div class="corpo">
+      <header class="topo">
+        <a href="perfil.html" class="usuario-topo">
+          <img src="imagens/avatar-joao.svg" alt="Foto de João da Silva">
+          <span>João da Silva</span>
+        </a>
+      </header>
+
+      <main class="conteudo">
+        <div class="breadcrumb"><a href="index.html">Home</a> / <a href="pets.html">Pets</a> / Novo pet</div>
+        <h1 class="titulo-pagina">Novo Pet</h1>
+
+        <form action="pets.html" method="get" class="card">
+          <h2>Dados do pet</h2>
+          <div class="formulario">
+            <div class="campo">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Nome do pet">
+            </div>
+            <div class="campo">
+              <label for="tipo">Tipo de animal</label>
+              <select id="tipo" name="tipo">
+                <option selected disabled>Selecione o tipo</option>
+                <option>Cachorro</option>
+                <option>Gato</option>
+                <option>Coelho</option>
+                <option>Ave</option>
+              </select>
+            </div>
+            <div class="campo">
+              <label for="raca">Raça</label>
+              <input type="text" id="raca" name="raca" placeholder="Ex.: Poodle">
+            </div>
+            <div class="campo">
+              <label for="proprietario">Proprietário</label>
+              <select id="proprietario" name="proprietario">
+                <option selected disabled>Selecione o cliente</option>
+                <option>Maria da Silva</option>
+                <option>José da Silva</option>
+                <option>Ana Souza</option>
+                <option>Carlos Mendes</option>
+              </select>
+            </div>
+            <div class="campo campo-inteiro">
+              <label>Tamanho</label>
+              <div class="opcoes">
+                <label><input type="radio" name="tamanho" value="pequeno"> Pequeno</label>
+                <label><input type="radio" name="tamanho" value="medio"> Médio</label>
+                <label><input type="radio" name="tamanho" value="grande"> Grande</label>
+              </div>
+            </div>
+            <div class="campo campo-inteiro">
+              <label for="foto">Foto do pet</label>
+              <input type="file" id="foto" name="foto">
+            </div>
+          </div>
+
+          <div class="acoes">
+            <button type="submit" class="btn btn-primario">Salvar pet</button>
+            <a href="pets.html" class="btn btn-secundario">Cancelar</a>
+          </div>
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

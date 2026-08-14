@@ -1,0 +1,43 @@
+MANIFESTO DE INTEGRIDADE - HOTEL PET
+===============================================
+Universidade Estadual do Sudoeste da Bahia - UESB
+Disciplina: Programação Web I
+Atividade: Trabalho Final - Hotel Pet
+Etapa: Semana 1 - HTML
+Data de referência: 14/08/2026
+Aluno: Thiago Ferreira Prates Neves
+Domínio: https://hotelpet.shop
+
+Este manifesto registra SHA-256 dos arquivos efetivamente entregues.
+Não é assinatura digital qualificada ICP-Brasil.
+Qualquer alteração no conteúdo de um arquivo altera seu SHA-256.
+
+Quantidade:
+- Arquivos totais: 22
+- HTML: 16
+- SVG: 6
+- CSS: 0
+
+ARQUIVO | TIPO | SHA-256
+hotelpetshop/configuracoes.html | HTML | 14dd137369ee30f54d9d0b72943114b3adcd5f6c6fd9eacaa7af99c6185ac5d9
+hotelpetshop/imagens/avatar-ana.svg | SVG | 020f98a8101b03a0d863a9eb1b44d03dc3d05a450b37407f75125ce26c6336c3
+hotelpetshop/imagens/avatar-carlos.svg | SVG | 25ddef61eca6a289da4a764333bb07956ed5cea1d57da803fddac2962dde69fe
+hotelpetshop/imagens/avatar-joao.svg | SVG | 2231cfedf1cd13dc88a1e8f16c0fa04e65a3bc7b78ac1be598816cc9c1c5aedf
+hotelpetshop/imagens/avatar-jose.svg | SVG | 56ad7d98460f6088e61bb14b8cdd7202f467150a6dfa90a9df2f05068d8ef0e1
+hotelpetshop/imagens/avatar-maria.svg | SVG | 2e72b4a7b58d49f9fc4b86ea0ec825ce8c77cfa6fe801147fdf543ba50c82752
+hotelpetshop/imagens/logo.svg | SVG | bd44fb65ad9bec0ac633534a151b26eefc2845158d8b445c558723fb643e74ab
+hotelpetshop/index.html | HTML | abf0ea05af826fd2d82077bec47bf0b9394aa680e6d0a9de690db5ade04b48e6
+hotelpetshop/login.html | HTML | 21aa5ac2d10c1ad07af1de47b2e74cc508c352c44303b305ba406cddb1e2a38a
+hotelpetshop/perfil.html | HTML | 18ba17e99a76545634b92a42c46d543384f3b2d01733cc7dc313613efca9c748
+hotelpetshop/pet_cadastrar.html | HTML | c57b05f00049870c5e251e9c06a23f926e044d141dcd36999e806e34ff926898
+hotelpetshop/pet_editar.html | HTML | 0d8ca2f67e0348d507422a4586f1ea4591a790523d35d38136b158c9e3963596
+hotelpetshop/pet_visualizar.html | HTML | de1f5d1682b4d30265686e372a0f73854dd12e67d1c5ab3c2136cfcd6158eef1
+hotelpetshop/pets.html | HTML | b89da2354a7f287372defb35f11d56681dab7c2e906329d49fc34b420c5d7b6e
+hotelpetshop/reserva_cadastrar.html | HTML | 6a8d80e551e524fd68a75883249697823cf6adb6972786b4adb451ec5c171ac5
+hotelpetshop/reserva_editar.html | HTML | 183c9369b67ef45a172bfe1359fb3831e05c42d3949121b6874b2ed58b729721
+hotelpetshop/reserva_visualizar.html | HTML | 1b2cd11efb79c537876e5dc958ef1a39fc1b7dd44b3ae2514c2defa52b40fe28
+hotelpetshop/reservas.html | HTML | 212c4662df2ba122f8a50bf806f3c5a0b81641f10ccf93fc6040cf8e4d7b46d9
+hotelpetshop/usuario_cadastrar.html | HTML | a75f872a5d3e4f02461125cb1fcc87297600d719173c3635aadab55923c76be3
+hotelpetshop/usuario_editar.html | HTML | 6835e733bb738c89cc16bfec9114335f02e01cab7ab45ebdc81cc31b480f156f
+hotelpetshop/usuario_visualizar.html | HTML | 6ac6a85306920610d3a8ea706d20b425eb5f937301bfb21f9e3fe20ad6872028
+hotelpetshop/usuarios.html | HTML | 7d3040a20131fecb77295fcb6ade6466648b89692a39aac662271c8fbd0e8aab

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!--
+============================================================
+UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA - UESB
+CURSO: Análise e Desenvolvimento de Sistemas - EAD
+DISCIPLINA: Programação Web I
+PROFESSOR: Lucas Santos de Oliveira
+ALUNO: Thiago Ferreira Prates Neves
+ATIVIDADE: Trabalho Final - Hotel Pet
+ETAPA: Semana 1 - HTML
+DATA DE AVALIAÇÃO/ENTREGA: 14/08/2026
+============================================================
+
+PROJETO:
+Hotel Pet - Sistema de gerenciamento de estadia de Pets.
+
+DOMÍNIO:
+https://hotelpet.shop
+
+OBJETIVO DESTA ENTREGA:
+Entregar a estrutura HTML do Projeto Final Hotel Pet, conforme
+o enunciado da disciplina. Nesta etapa não há CSS.
+
+ESCOPO:
+- HTML = estrutura e conteúdo
+- CSS = etapa seguinte, prevista para 21/08/2026
+- Backend = não desenvolvido; elementos estáticos
+- Visão implementada = Gerente, conforme o enunciado
+
+ARQUIVO/PÁGINA ATUAL:
+hotelpetshop/login.html
+Título da página: Entrar - Hotel Pet
+
+QUANTIDADE DE ARQUIVOS DA ENTREGA:
+22 arquivos no total
+16 páginas HTML
+6 arquivos SVG
+0 arquivos CSS
+
+INVENTÁRIO COMPLETO E INTEGRIDADE:
+O inventário completo dos arquivos, diretórios e respectivos hashes
+SHA-256 está registrado em:
+manifesto_sha256.txt
+
+GITHUB:
+O enunciado informa que as entregas frequentes serão avaliadas por
+meio do GitHub. Este arquivo não contém um commit hash inventado.
+O commit deve ser registrado no repositório do projeto quando a
+entrega for publicada.
+
+ATUALIZAÇÃO DA ATIVIDADE:
+Projeto Final - Hotel Pet
+Entrega da estrutura HTML para avaliação em 14/08/2026.
+
+============================================================
+-->
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar - Hotel Pet</title>
+</head>
+<body>
+  <main class="tela-login">
+    <img src="imagens/logo.svg" alt="Logo Hotel Pet" class="logo">
+    <h1>Hotel Pet</h1>
+    <p class="subtitulo">Faça login para gerenciar o hotel</p>
+
+    <form action="index.html" method="get">
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com">
+      </div>
+
+      <div class="campo">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="••••••••">
+      </div>
+
+      <button type="submit" class="entrar">Entrar</button>
+    </form>
+
+    <div class="ajuda">
+      <a href="usuario_cadastrar.html">Criar conta</a>
+      <a href="login.html">Esqueci minha senha</a>
+    </div>
+  </main>
+</body>
+</html>
