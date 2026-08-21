@@ -1,0 +1,54 @@
+﻿
+<!DOCTYPE html>
+<!--
+====================================================================
+UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA - UESB
+CURSO: Analise e Desenvolvimento de Sistemas - EAD
+DISCIPLINA: Programacao Web I
+PROFESSOR: Lucas Santos de Oliveira
+ALUNO: Thiago Ferreira Prates Neves
+PROJETO: Hotel Pet
+ATIVIDADE: Trabalho Final
+ETAPA: Semana 2 - CSS
+ARQUIVO: reserva_editar_finalizada.html
+OBJETIVO: Apresentar a pagina Editar Reserva Finalizada - Hotel Pet do sistema Hotel Pet.
+TECNOLOGIAS: HTML5 e CSS3
+BACKEND: NAO DESENVOLVIDO
+BANCO DE DADOS: NAO UTILIZADO
+====================================================================
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hotel Pet - projeto acadêmico de Programação Web I da UESB">
+  <title>Editar Reserva Finalizada - Hotel Pet</title>
+  <link rel="icon" href="imagens/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="imagens/favicon.svg">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="menu-lateral">
+      <div class="marca"><a href="index.html" aria-label="Ir para o início do Hotel Pet"><img src="imagens/logo.svg" alt="Logo do Hotel Pet"><span>Hotel Pet</span></a></div>
+      <nav class="navegacao-principal" aria-label="Navegação principal"><a href="index.html" class="item-menu"><span class="icone" aria-hidden="true">⌂</span><span>Home</span></a><a href="reservas.html" class="item-menu ativo" aria-current="page"><span class="icone" aria-hidden="true">▣</span><span>Reservas</span></a><a href="pets.html" class="item-menu"><span class="icone" aria-hidden="true">♥</span><span>Pets</span></a><a href="usuarios.html" class="item-menu"><span class="icone" aria-hidden="true">♙</span><span>Usuários</span></a><a href="configuracoes.html" class="item-menu"><span class="icone" aria-hidden="true">⚙</span><span>Configurações</span></a></nav>
+      <div class="menu-rodape"><a href="perfil.html" class="perfil-menu"><img src="imagens/avatar-joao.svg" alt="Foto de João da Silva"><span><strong>João da Silva</strong><small>Gerente</small></span></a></div>
+    </aside>
+    <div class="area-principal">
+      <header class="cabecalho"><div><p class="sobretitulo">Painel de gerenciamento</p><h1>Editar Reserva Finalizada</h1></div><a href="perfil.html" class="usuario-cabecalho"><img src="imagens/avatar-joao.svg" alt="Foto de João da Silva"><span><strong>João da Silva</strong><small>Gerente</small></span></a></header>
+      <main class="conteudo">
+        <nav class="breadcrumb" aria-label="Localização"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Editar Reserva Finalizada</span></nav>
+        <section class="secao">
+<div class="titulo-secao"><div><p class="sobretitulo">Reservas</p><h2>Editar Reserva #3</h2></div><span class="status status-finalizada">Finalizada</span></div>
+<form class="formulario" action="reservas.html" method="get">
+<fieldset class="painel-formulario"><legend>Dados da reserva</legend>
+<div class="form-grid"><div class="campo-legado"><label for="pet-final">Pet:</label><select id="pet-final"><option>Toto (Poodle)</option><option>Mia (Siamês)</option></select></div><div class="campo-legado"><label for="cliente-final">Cliente:</label><input id="cliente-final" value="Maria da Silva" readonly></div><div class="campo-legado"><label for="entrada-final">Check-in:</label><input id="entrada-final" type="date" value="2026-08-10"></div><div class="campo-legado"><label for="saida-final">Check-out:</label><input id="saida-final" type="date" value="2026-08-14"></div><div class="campo-legado"><label for="status-final">Status:</label><select id="status-final"><option selected>Finalizada</option><option>Em andamento</option><option>Pendente</option></select></div><div class="campo-legado"><label for="diaria-final">Valor da diária (R$):</label><input id="diaria-final" type="number" value="80.00" step="0.01"></div></div></fieldset>
+<fieldset class="painel-formulario"><legend>Recibo / Nota da estadia</legend><div class="campo-legado"><label for="recibo-final">Arquivo do recibo:</label><input id="recibo-final" type="file"></div></fieldset>
+<div class="acoes-formulario"><button class="botao" type="submit">Salvar alterações</button><a class="botao-link" href="reservas.html">Cancelar</a></div>
+</form></section>
+      </main>
+      <footer class="rodape"><span>Hotel Pet</span><span>Programação Web I - UESB</span></footer>
+    </div>
+  </div>
+</body>
+</html>

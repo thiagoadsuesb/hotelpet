@@ -1,0 +1,6 @@
+HOTEL PET - PROGRAMACAO WEB I - UESB
+ETAPA 2 - CSS
+
+Tecnologias: HTML5 e CSS3.
+Sem Python, JavaScript, bibliotecas, frameworks, CDN ou backend.
+Projeto estatico conforme o enunciado.

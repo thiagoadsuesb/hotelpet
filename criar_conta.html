@@ -1,0 +1,35 @@
+﻿
+<!DOCTYPE html>
+<!--
+====================================================================
+UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA - UESB
+CURSO: Analise e Desenvolvimento de Sistemas - EAD
+DISCIPLINA: Programacao Web I
+PROFESSOR: Lucas Santos de Oliveira
+ALUNO: Thiago Ferreira Prates Neves
+PROJETO: Hotel Pet
+ATIVIDADE: Trabalho Final
+ETAPA: Semana 2 - CSS
+ARQUIVO: criar_conta.html
+OBJETIVO: Apresentar a pagina Criar conta - Hotel Pet do sistema Hotel Pet.
+TECNOLOGIAS: HTML5 e CSS3
+BACKEND: NAO DESENVOLVIDO
+BANCO DE DADOS: NAO UTILIZADO
+====================================================================
+-->
+<html lang="pt-BR">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Hotel Pet - projeto acadêmico de Programação Web I da UESB"><title>Criar conta - Hotel Pet</title><link rel="icon" href="imagens/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="imagens/favicon.svg"><link rel="stylesheet" href="css/estilo.css"></head>
+<body class="corpo-autenticacao"><main class="cartao-autenticacao"><section class="pagina-autenticacao">
+  <div class="autenticacao-marca"><a href="index.html"><img src="imagens/logo.svg" alt="Logo do Hotel Pet"><strong>Hotel Pet</strong></a></div>
+  <p class="subtitulo-central">Crie sua conta para acessar o Hotel Pet.</p>
+  <form class="formulario formulario-central" action="login.html" method="get">
+    <fieldset class="painel-formulario"><legend>Dados da conta</legend>
+      <div class="campo-legado"><label for="nome-conta">Nome:</label><input id="nome-conta" name="nome" type="text" required></div>
+      <div class="campo-legado"><label for="email-conta">E-mail:</label><input id="email-conta" name="email" type="email" required></div>
+      <div class="campo-legado"><label for="senha-conta">Senha:</label><input id="senha-conta" name="senha" type="password" required></div>
+      <div class="campo-legado"><label for="telefone-conta">Telefone:</label><input id="telefone-conta" name="telefone" type="tel"></div>
+    </fieldset>
+    <div class="acoes-formulario"><button class="botao" type="submit">Criar conta</button><a class="botao-link" href="login.html">Voltar para login</a></div>
+  </form>
+</section></main></body>
+</html>

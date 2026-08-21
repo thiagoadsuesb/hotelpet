@@ -1,0 +1,33 @@
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+.vs/
+
+# Arquivos temporarios
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Cache
+__pycache__/
+node_modules/
+
+# Seguranca
+.env
+.env.*
+*.pem
+*.key
+.ssh/
+secrets/
+credentials/
+tokens/
+
+# Documentos locais nao publicaveis
+# (mantidos no repositorio, mas nao como parte do site)
+# documentos/material-estudo/

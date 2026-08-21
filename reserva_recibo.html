@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+====================================================================
+UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA - UESB
+CURSO: Analise e Desenvolvimento de Sistemas - EAD
+DISCIPLINA: Programacao Web I
+PROFESSOR: Lucas Santos de Oliveira
+ALUNO: Thiago Ferreira Prates Neves
+PROJETO: Hotel Pet
+ATIVIDADE: Trabalho Final
+ETAPA: Semana 2 - CSS
+ARQUIVO: reserva_recibo.html
+OBJETIVO: Apresentar o recibo de estadia pronto para impressao.
+TECNOLOGIAS: HTML5 e CSS3
+BACKEND: NAO DESENVOLVIDO
+BANCO DE DADOS: NAO UTILIZADO
+====================================================================
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recibo de Estadia - Hotel Pet</title>
+  <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="menu-lateral nao-imprimir">
+      <div class="logo">
+        <img src="imagens/logo.svg" alt="Logo do Hotel Pet">
+        <span>Hotel Pet</span>
+      </div>
+      <nav class="menu">
+        <a href="pets.html" class="item">🐾 Pet</a>
+        <a href="usuarios.html" class="item">👤 Usuários</a>
+        <a href="configuracoes.html" class="item">⚙️ Configurações</a>
+        <a href="reservas.html" class="item ativo">📖 Reservas</a>
+      </nav>
+    </aside>
+
+    <div class="corpo">
+      <header class="topo nao-imprimir">
+        <a href="perfil.html" class="usuario-topo">
+          <img src="imagens/avatar-joao.svg" alt="Foto de João da Silva">
+          <span>João da Silva</span>
+        </a>
+      </header>
+
+      <main class="conteudo">
+        <div class="breadcrumb nao-imprimir"><a href="index.html">Home</a> / <a href="reservas.html">Reservas</a> / <a href="reserva_visualizar.html">Reserva #1</a> / Recibo</div>
+        <h1 class="titulo-pagina nao-imprimir">Recibo de estadia</h1>
+
+        <div class="acoes nao-imprimir">
+          <a href="reserva_visualizar.html" class="btn btn-secundario">Voltar para reserva</a>
+        </div>
+
+        <section class="card recibo">
+          <div class="recibo-cabecalho">
+            <img src="imagens/logo.svg" alt="Hotel Pet" class="recibo-logo">
+            <div>
+              <h2>Hotel Pet</h2>
+              <p>Recibo de Estadia</p>
+            </div>
+          </div>
+
+          <div class="recibo-linha">
+            <span><strong>Número da reserva:</strong> #1</span>
+            <span><strong>Emissão:</strong> 14/08/2026</span>
+          </div>
+
+          <div class="recibo-dados">
+            <p><strong>Cliente:</strong> Maria da Silva</p>
+            <p><strong>Pet:</strong> Toto (Poodle)</p>
+            <p><strong>Data de entrada:</strong> 10/08/2026</p>
+            <p><strong>Data de saída:</strong> 14/08/2026</p>
+            <p><strong>Quantidade de diárias:</strong> 4</p>
+            <p><strong>Valor da diária:</strong> R$ 35,00</p>
+            <p><strong>Serviços extras:</strong> R$ 20,00</p>
+          </div>
+
+          <div class="recibo-total">
+            <p><strong>Total: R$ 160,00</strong></p>
+          </div>
+
+          <div class="recibo-observacao">
+            <p><strong>Observações:</strong></p>
+            <p>Toto é muito agitado, precisa de dois passeios por dia. Alimentação fornecida pelo proprietário.</p>
+          </div>
+
+          <div class="recibo-status">
+            <p><strong>Status:</strong> Finalizada</p>
+          </div>
+
+          <div class="recibo-assinatura">
+            <p>_______________________________</p>
+            <p>Assinatura do responsável</p>
+          </div>
+        </section>
+
+        <section class="card nao-imprimir">
+          <h2>Instruções de impressão</h2>
+          <p>Utilize <strong>Ctrl + P</strong> ou o menu de impressão do navegador para imprimir este recibo.</p>
+          <p>Elementos de navegação serão ocultados automaticamente na impressão.</p>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
