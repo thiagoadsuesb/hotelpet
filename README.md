@@ -67,13 +67,6 @@ Programacao-Web-I/
 │   ├── estilo.css              # Folha de estilos principal
 │   └── login.css               # Estilos especificos da tela de login
 ├── imagens/                    # Imagens, icones e favicon
-├── docs/
-│   ├── MAPA_DE_ROTAS.md        # Mapa completo de navegacao
-│   ├── RELATORIO_HOMOLOGACAO.md # Relatorio de validacao
-│   └── rotas.md
-├── documentos/
-│   ├── material-estudo/        # Apostilas e materiais da disciplina
-│   └── historico/              # Arquivos de backup
 ├── index.html                  # Home do sistema
 ├── login.html                  # Tela de login
 ├── login_demo.html             # Simulacao de autenticacao
@@ -162,15 +155,9 @@ Como o projeto nao possui backend, as operacoes sao representadas por fluxos de 
 | Semana 1 | 14/08/2026 | Estrutura HTML das telas |
 | Semana 2 | 21/08/2026 | Estilizacao CSS, organizacao, documentacao e publicacao |
 
-## 📖 Documentacao
-
-Consulte a pasta `docs/` para:
-- `MAPA_DE_ROTAS.md` — mapeamento completo dos links
-- `RELATORIO_HOMOLOGACAO.md` — relatorio de validacao do projeto
-
 ## 🌱 Evolucao Comercial
 
-A versao academica atual e estatica e tem como objetivo demonstrar dominio de HTML e CSS. A evolucao para uma versao comercial do `hotelpet.shop` e documentada em `docs/EVOLUCAO_COMERCIAL.md`, com propostas de:
+A versao academica atual e estatica e tem como objetivo demonstrar dominio de HTML e CSS. A evolucao para uma versao comercial do `hotelpet.shop` preve:
 
 - Backend com API REST
 - Banco de dados relacional
