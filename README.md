@@ -94,8 +94,7 @@ Programacao-Web-I/
 ├── README.md
 ├── .editorconfig
 ├── .gitattributes
-├── .gitignore
-└── manifesto_sha256.txt        # Manifesto de integridade dos arquivos
+└── .gitignore
 ```
 
 ## 🖥️ Telas
