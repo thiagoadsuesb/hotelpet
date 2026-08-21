@@ -1,137 +1,194 @@
-# Hotel Pet
+<div align="center">
 
-## Projeto Acadêmico
+# 🐾 Hotel Pet
 
-- **Universidade:** Universidade Estadual do Sudoeste da Bahia — UESB
-- **Curso:** Análise e Desenvolvimento de Sistemas — EAD
-- **Disciplina:** Programação Web I
-- **Professor:** Lucas Santos de Oliveira
-- **Aluno:** Thiago Ferreira Prates Neves
-- **Repositório:** https://github.com/thiagoadsuesb/hotelpet
-- **Domínio:** https://www.hotelpet.shop
+**Sistema de Gerenciamento de Estadia para Pets**
 
-## Descrição
+[![Deploy no Pages](https://github.com/thiagoadsuesb/hotelpet/actions/workflows/deploy.yml/badge.svg)](https://github.com/thiagoadsuesb/hotelpet/actions/workflows/deploy.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-hotelpet.shop-blue?logo=github)](https://hotelpet.shop)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-Sistema de gerenciamento de estadia de pets, desenvolvido como trabalho final da disciplina Programação Web I.
+</div>
 
-## Objetivo
+## 📚 Informacoes Academicas
 
-Construir a estrutura HTML e a estilização CSS do sistema Hotel Pet, representando a visão do gerente, conforme o protótipo disponibilizado no Figma.
+| Campo | Detalhe |
+|-------|---------|
+| **Universidade** | Universidade Estadual do Sudoeste da Bahia — UESB |
+| **Curso** | Analise e Desenvolvimento de Sistemas — EAD |
+| **Disciplina** | Programacao Web I |
+| **Professor** | Lucas Santos de Oliveira |
+| **Aluno** | Thiago Ferreira Prates Neves |
+| **Repositorio** | [github.com/thiagoadsuesb/hotelpet](https://github.com/thiagoadsuesb/hotelpet) |
+| **Site publicado** | [hotelpet.shop](https://hotelpet.shop) |
 
-## Escopo
+## 🎯 Objetivo
 
-- HTML5
-- CSS3
-- Elementos estáticos
-- Visão do gerente
+Desenvolver a estrutura HTML5 e a estilizacao CSS3 de um sistema de gerenciamento de estadia para pets, representando a visao do gerente a partir de um prototipo no Figma.
 
-## Restrições Acadêmicas
+Este projeto e o trabalho final da disciplina **Programacao Web I**, com foco exclusivo no front-end estatico.
 
-- Sem backend
-- Sem banco de dados
-- Sem frameworks
-- Sem bibliotecas externas
-- Sem JavaScript
-- Sem CDN
+## 🚀 Tecnologias
 
-## Estrutura do Projeto
+- **HTML5** — estrutura semantica e acessivel
+- **CSS3** — estilizacao, layout responsivo e midia de impressao
+- **Git** — versionamento e colaboracao
+- **GitHub Pages** — publicacao estatica automatizada
+
+## 📋 Escopo
+
+- Interface estatica do sistema Hotel Pet
+- Visao do gerente
+- Navegacao entre telas por links HTML
+- Simulacao de operacoes (login, cadastro, edicao, exclusao, recibo)
+- Layout responsivo
+- Recibo com CSS para impressao
+
+## 🚫 Restricoes Academicas
+
+Para manter o foco didatico da disciplina, este projeto **nao utiliza**:
+
+- JavaScript
+- Backend ou APIs
+- Banco de dados
+- Frameworks ou bibliotecas externas
+- CDN
+- Automacao por scripts Python no site publicado
+
+## 📁 Estrutura do Projeto
 
 ```
-hotelpet/
-├── index.html
-├── login.html
-├── login_demo.html
-├── criar_conta.html
-├── perfil.html
-├── pets.html
-├── pet_cadastrar.html
-├── pet_editar.html
-├── pet_visualizar.html
-├── reservas.html
-├── reserva_cadastrar.html
-├── reserva_editar.html
-├── reserva_editar_finalizada.html
-├── reserva_visualizar.html
-├── reserva_recibo.html
-├── usuarios.html
-├── usuario_cadastrar.html
-├── usuario_criado.html
-├── usuario_editar.html
-├── usuario_excluir.html
-├── usuario_excluido.html
-├── usuario_visualizar.html
-├── configuracoes.html
+Programacao-Web-I/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # Publicacao automatica no GitHub Pages
 ├── css/
-│   ├── estilo.css
-│   └── login.css
-├── imagens/
-│   ├── logo.svg
-│   ├── favicon.svg
-│   ├── favicon.png
-│   ├── favicon.ico
-│   └── ...
+│   ├── estilo.css              # Folha de estilos principal
+│   └── login.css               # Estilos especificos da tela de login
+├── imagens/                    # Imagens, icones e favicon
 ├── docs/
-│   ├── MAPA_DE_ROTAS.md
-│   ├── RELATORIO_HOMOLOGACAO.md
+│   ├── MAPA_DE_ROTAS.md        # Mapa completo de navegacao
+│   ├── RELATORIO_HOMOLOGACAO.md # Relatorio de validacao
 │   └── rotas.md
 ├── documentos/
-│   ├── material-estudo/
-│   └── historico/
+│   ├── material-estudo/        # Apostilas e materiais da disciplina
+│   └── historico/              # Arquivos de backup
+├── index.html                  # Home do sistema
+├── login.html                  # Tela de login
+├── login_demo.html             # Simulacao de autenticacao
+├── criar_conta.html            # Criacao de conta
+├── perfil.html                 # Perfil do gerente
+├── pets.html                   # Listagem de pets
+├── pet_cadastrar.html          # Cadastro de pet
+├── pet_editar.html             # Edicao de pet
+├── pet_visualizar.html         # Visualizacao de pet
+├── reservas.html               # Listagem de reservas
+├── reserva_cadastrar.html      # Nova reserva
+├── reserva_editar.html         # Edicao de reserva
+├── reserva_editar_finalizada.html
+├── reserva_visualizar.html     # Detalhes da reserva
+├── reserva_recibo.html         # Recibo para impressao
+├── usuarios.html               # Listagem de usuarios
+├── usuario_cadastrar.html      # Cadastro de usuario
+├── usuario_criado.html         # Confirmacao de cadastro
+├── usuario_editar.html         # Edicao de usuario
+├── usuario_excluir.html        # Confirmacao de exclusao
+├── usuario_excluido.html       # Exclusao simulada
+├── usuario_visualizar.html     # Visualizacao de usuario
+├── configuracoes.html          # Configuracoes do hotel
+├── CNAME                       # Dominio personalizado
 ├── README.md
+├── .editorconfig
+├── .gitattributes
 ├── .gitignore
-└── manifesto_sha256.txt
+└── manifesto_sha256.txt        # Manifesto de integridade dos arquivos
 ```
 
-## Telas
+## 🖥️ Telas
 
-1. `login.html` — Tela de entrada
-2. `login_demo.html` — Simulação de login
-3. `criar_conta.html` — Criação de conta
-4. `index.html` — Visão geral
-5. `pets.html` — Lista de pets
+1. `login.html` — Entrada no sistema
+2. `login_demo.html` — Simulacao de login bem-sucedido
+3. `criar_conta.html` — Criacao de nova conta
+4. `index.html` — Visao geral do hotel
+5. `pets.html` — Lista de pets hospedados
 6. `pet_cadastrar.html` — Cadastro de pet
-7. `pet_editar.html` — Edição de pet
-8. `pet_visualizar.html` — Visualização de pet
+7. `pet_editar.html` — Edicao de cadastro de pet
+8. `pet_visualizar.html` — Visualizacao de pet
 9. `reservas.html` — Lista de reservas
 10. `reserva_cadastrar.html` — Nova reserva
-11. `reserva_editar.html` — Edição de reserva
-12. `reserva_editar_finalizada.html` — Edição de reserva finalizada
-13. `reserva_visualizar.html` — Visualização de reserva
-14. `reserva_recibo.html` — Recibo para impressão
-15. `usuarios.html` — Lista de usuários
-16. `usuario_cadastrar.html` — Cadastro de usuário
-17. `usuario_criado.html` — Confirmação de cadastro
-18. `usuario_editar.html` — Edição de usuário
-19. `usuario_excluir.html` — Confirmação de exclusão
-20. `usuario_excluido.html` — Exclusão simulada
-21. `usuario_visualizar.html` — Visualização de usuário
+11. `reserva_editar.html` — Edicao de reserva
+12. `reserva_editar_finalizada.html` — Reserva finalizada
+13. `reserva_visualizar.html` — Detalhes da reserva
+14. `reserva_recibo.html` — Recibo para impressao
+15. `usuarios.html` — Lista de usuarios
+16. `usuario_cadastrar.html` — Cadastro de usuario
+17. `usuario_criado.html` — Confirmacao de cadastro
+18. `usuario_editar.html` — Edicao de usuario
+19. `usuario_excluir.html` — Confirmacao de exclusao
+20. `usuario_excluido.html` — Exclusao simulada
+21. `usuario_visualizar.html` — Visualizacao de usuario
 22. `perfil.html` — Perfil do gerente
-23. `configuracoes.html` — Configurações do hotel
+23. `configuracoes.html` — Configuracoes do hotel
 
-## Simulações Estáticas
+## 🔗 Como Visualizar
 
-Como o projeto não possui backend, as operações de login, cadastro, edição e exclusão são representadas por fluxos de navegação entre páginas HTML, sem persistência de dados.
+### Online
 
-## Como Visualizar
+Acesse o site publicado em: **https://hotelpet.shop**
 
-Abra o arquivo `login.html` diretamente no navegador. A navegação entre as telas funciona por links.
+### Localmente
 
-## Recibo
+1. Clone o repositorio:
+   ```bash
+   git clone git@thiagoadsuesb.github.com:thiagoadsuesb/hotelpet.git
+   ```
+2. Abra o arquivo `login.html` no navegador.
+3. Navegue pelas telas pelos links.
 
-A página `reserva_recibo.html` possui CSS de impressão. Utilize **Ctrl + P** para imprimir.
+## 🧪 Simulacoes Estaticas
 
-## Etapas
+Como o projeto nao possui backend, as operacoes sao representadas por fluxos de navegacao entre paginas HTML, sem persistencia de dados. Por exemplo:
 
-### Semana 1 — HTML — 14/08/2026
-Estrutura das telas.
+- Login → `login.html` → `login_demo.html`
+- Cadastro de usuario → `usuario_cadastrar.html` → `usuario_criado.html`
+- Exclusao de usuario → `usuario_visualizar.html` → `usuario_excluir.html` → `usuario_excluido.html`
+- Recibo → `reserva_visualizar.html` → `reserva_recibo.html` (use **Ctrl + P** para imprimir)
 
-### Semana 2 — CSS — 21/08/2026
-Estilização visual e organização do projeto.
+## 📅 Etapas do Desenvolvimento
 
-## Documentação
+| Etapa | Data | Descricao |
+|-------|------|-----------|
+| Semana 1 | 14/08/2026 | Estrutura HTML das telas |
+| Semana 2 | 21/08/2026 | Estilizacao CSS, organizacao, documentacao e publicacao |
 
-Consulte a pasta `docs/` para relatórios, mapa de rotas e demais documentos acadêmicos.
+## 📖 Documentacao
 
-## Material de Estudo
+Consulte a pasta `docs/` para:
+- `MAPA_DE_ROTAS.md` — mapeamento completo dos links
+- `RELATORIO_HOMOLOGACAO.md` — relatorio de validacao do projeto
 
-Materiais fornecidos pelo professor estão organizados em `documentos/material-estudo/`.
+## 🌱 Evolucao Comercial
+
+A versao academica atual e estatica e tem como objetivo demonstrar dominio de HTML e CSS. A evolucao para uma versao comercial do `hotelpet.shop` e documentada em `docs/EVOLUCAO_COMERCIAL.md`, com propostas de:
+
+- Backend com API REST
+- Banco de dados relacional
+- Sistema de autenticacao real
+- Painel administrativo dinamico
+- Reservas online para clientes
+- Notificacoes por e-mail
+- Relatorios e dashboards
+
+## 📝 Licenca
+
+Projeto academico desenvolvido para fins didaticos na UESB.
+
+---
+
+<div align="center">
+
+**Desenvolvido por Thiago Ferreira Prates Neves**  
+*Universidade Estadual do Sudoeste da Bahia — UESB*
+
+</div>
