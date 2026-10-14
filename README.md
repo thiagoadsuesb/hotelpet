@@ -11,6 +11,10 @@
 
 </div>
 
+> **Aviso (out/2026):** A raiz de `hotelpet.shop` agora exibe a página **"Em breve"** (`index.html`).
+> O trabalho academico da UESB foi preservado e continua publicado em **[hotelpet.shop/projeto/](https://hotelpet.shop/projeto/)** (pasta `projeto/`),
+> e tambem na branch `uesb-trabalho-final`.
+
 ## 📚 Informacoes Academicas
 
 | Campo | Detalhe |
